@@ -1,4 +1,28 @@
 {
+  "name": "vending-machine-contract-attacker",
+  "version": "1.0.0",
+  "description": "A simple smart contract that attacks another contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sir-josh/Attack-Contract.git"
+  },
+  "keywords": [
+    "smart",
+    "contract",
+    "hackable",
+    "solidity",
+    "test",
+    "contract",
+    "attack",
+    "re-entracy",
+    "re-entracy attack"
+  ],
+  "author": "SIR JOSH",
+  "license": "ISC",
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.0.8",
     "dotenv": "^16.0.1",
