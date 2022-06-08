@@ -5,12 +5,12 @@ const web3 = new Web3();
 
 describe('Attack-Vending-Machine Contract satisfies the following tests: ', () => {
     //  @var { Object }  - (owner) To hold the address of the first test account provided by hardhat test network
-    //  @var {String} - (vendingMachine) The deployed vending machine smart contract instance
-    //  @var {String} - (attackVendingMachine) The deployed attacking contract instance
-    //  @var { Object}  - (address1) To holds list of all accounts provided by ganache test network
-    //  @var { Object}  - (address2) To holds list of all accounts provided by ganache test network
-    //  @var {Object} - (cFactory1) A factory for instances of vending machine contract
-    //  @var {Object} - (cFactory2) A factory for instances of attacking contract
+    //  @var { Object } - (vendingMachine) The deployed vending machine smart contract instance
+    //  @var { Object } - (attackVendingMachine) The deployed attacking contract instance
+    //  @var { Object}  - (address1) To holds the address of the second test account provided by hardhat test network
+    //  @var { Object}  - (address2) To holds the address of the third test account provided by hardhat test network
+    //  @var { Object } - (cFactory1) A factory for instances of vending machine contract
+    //  @var { Object } - (cFactory2) A factory for instances of attacking contract
     
     let owner, address1, address2, cFactory1, cFactory2, vendingMachine, attackVendingMachine;
 
