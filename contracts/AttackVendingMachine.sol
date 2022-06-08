@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.9;
 
-import "./VendingMachine.sol";
+import "https://github.com/sir-josh/Hackable-smart-contract/blob/master/contracts/VendingMachine.sol";
 
 contract AttackVendingMachine{
     VendingMachine public vendingMachine;

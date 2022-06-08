@@ -2,6 +2,7 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
+
 /** 
  * @title A simple contract that models after a vending machine that provides only peanuts
  * @dev Implement one time hackable smart contract (vending machine model)
@@ -154,6 +155,14 @@ contract VendingMachine {
      */
     function restockPeanuts(uint256 _restockAmount) public onlyOwner{
         peanuts[address(this)] += _restockAmount;
+    }
+
+    /**
+     * @dev Returns the opposite truthy value of txCheckLock 
+     * Can only be called by the current owner.
+     */
+    function hasNotBeenHacked() public view onlyOwner returns (bool){
+        return !txCheckLock;
     }
 
 }
